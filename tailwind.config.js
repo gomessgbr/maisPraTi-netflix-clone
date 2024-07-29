@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'netflix-background-image': "url('/assets/background-image.jpg')"
+      }
+    },
   },
   plugins: [],
 }
